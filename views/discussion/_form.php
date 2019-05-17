@@ -14,7 +14,7 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'id_project')->textInput() ?>
 
-
+    <?= $form->field($model, 'id_user')->textInput() ?>
 
     <?= $form->field($model, 'disc_name')->textarea(['rows' => 6]) ?>
 
